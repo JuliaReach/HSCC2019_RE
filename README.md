@@ -60,9 +60,10 @@ Random
 You also need the `Reachability` package.
 At the time of writing, this package is not published in Julia's package system,
 so you need to clone the repository manually.
+The following command fixes a version with known compatibility.
 
 ```julia
-pkg> add https://github.com/JuliaReach/Reachability.git
+pkg> add https://github.com/JuliaReach/Reachability.jl#6340067f382bb0547a1ad45ddefcdab2053a3bcb
 ```
 
 Finally, for cloning this repository, again use the `add` command.
